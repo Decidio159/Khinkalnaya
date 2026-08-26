@@ -1,0 +1,38 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <p class="logo" style="margin-bottom: 0.8rem"><!-- знак берётся из шапки, второй раз путь не повторяем --><svg class="logo__mark" viewBox="0 0 35.41 24" aria-hidden="true"><use href="#знак-хинкали"/></svg> {{название}}</p>
+        <p class="muted">{{о_компании}}</p>
+      </div>
+      <div>
+        <h3 style="font-size: 1rem; margin-bottom: 0.8rem">Гостям</h3>
+        <p class="muted">
+          <a href="меню.html">Меню и цены</a><br />
+          <a href="бронь.html">Забронировать стол</a><br />
+          <a href="контакты.html">Как нас найти</a>
+        </p>
+      </div>
+      <div>
+        <h3 style="font-size: 1rem; margin-bottom: 0.8rem">Контакты</h3>
+        <p class="muted">
+          <a href="tel:{{телефон_ссылкой}}">{{телефон}}</a><br />
+          <a href="mailto:{{почта}}">{{почта}}</a><br />
+          {{адрес_офиса}}<br />
+          {{часы}}
+        </p>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <span>© <span data-year></span> {{название}}</span>
+      <a href="privacy.html">Политика конфиденциальности</a>
+      <span>{{реквизиты}}</span>
+      <span>Сайт — <a href="https://decidio.ru" rel="noopener">Decidio</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn--primary" href="бронь.html">Забронировать стол</a>
+  <a class="btn btn--ghost" href="tel:{{телефон_ссылкой}}">Позвонить</a>
+</div>

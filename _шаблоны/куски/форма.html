@@ -1,0 +1,40 @@
+<!-- ================= БРОНЬ СТОЛА ================= -->
+<section class="section" id="booking">
+  <div class="container">
+    <div class="formblock">
+      <div data-reveal>
+        <p class="eyebrow">Бронирование</p>
+        <h2 class="section-title">Забронировать стол</h2>
+        <p class="section-lead">{{обещание_формы}}</p>
+
+        <p class="form__note">
+          Бронь бесплатная и ни к чему не обязывает. Компанию от 10 человек проще
+          обсудить голосом: <a href="tel:{{телефон_ссылкой}}" style="text-decoration: underline">{{телефон}}</a>.
+        </p>
+      </div>
+
+      <form class="formblock__box" data-form action="общее/send.php" method="post" novalidate data-reveal data-delay="1">
+        <h3 style="margin-bottom: 1rem">Оставьте номер — перезвоним</h3>
+        <label class="field"><span>Ваше имя *</span><input class="input" type="text" name="name" required autocomplete="name" /></label>
+        <label class="field"><span>Телефон *</span><input class="input" type="tel" name="contact" required autocomplete="tel" placeholder="+7 (___) ___-__-__" data-phone /></label>
+        <label class="field"><span>Сколько гостей, какой день и время</span><input class="input" type="text" name="task" placeholder="4 человека, в субботу к 19:00" /></label>
+        <label class="field"><span>Откуда вы о нас узнали</span>
+          <select class="select" name="source">
+            <option value="">Выберите</option>
+            <option>Поиск Яндекс или Google</option>
+            <option>Яндекс.Карты или 2ГИС</option>
+            <option>Яндекс.Еда</option>
+            <option>Соцсети</option>
+            <option>Посоветовали знакомые</option>
+            <option>Проходил мимо</option>
+          </select>
+        </label>
+        <div class="hp"><label>Не заполняйте это поле<input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+        <label class="check"><input type="checkbox" name="agree" required /><span>Согласен на обработку персональных данных и с <a href="privacy.html" style="text-decoration: underline">политикой конфиденциальности</a></span></label>
+        <button class="btn btn--primary btn--wide" type="submit">Забронировать</button>
+        <p class="form__msg" role="status" aria-live="polite"></p>
+        <p class="form__note">Бронь бесплатная. Не придёте — просто позвоните и отмените, мы не обидимся.</p>
+      </form>
+    </div>
+  </div>
+</section>

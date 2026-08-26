@@ -1,0 +1,140 @@
+/* =========================================================
+   ТЕМА: РЕСТОРАН, кофейня, пекарня, кондитерская
+   Шрифты: Prata (заголовки) + Manrope (текст)
+   Настроение: уют, вкус, вечерний свет.
+   У Prata нет жирного начертания — выделяем размером.
+   ========================================================= */
+
+:root {
+  --font-head: "Prata", Georgia, serif;
+  --font-text: "Manrope", system-ui, sans-serif;
+  --head-weight: 400;
+  --head-spacing: 0;
+
+  --bg:            #fbf7f2;
+  --bg-soft:       #f2e9dd;
+  --bg-elevated:   #ffffff;
+  --surface:       #ece0d0;
+  --border:        rgba(52, 32, 18, 0.14);
+  --border-strong: rgba(52, 32, 18, 0.28);
+
+  --text:          #2a1a10;
+  --text-muted:    #584231;
+  --text-dim:      #715e4e;
+
+  --accent:        #8a3f2a;   /* терракота, 6:1 */
+  --accent-deep:   #642a1a;
+  --accent-2:      #c07348;
+  --on-accent:     #ffffff;
+
+  --radius:    14px;
+  --radius-sm: 10px;
+
+  --wave-bg:   #2a1a10;
+  --wave-tint: 192 115 72;
+}
+
+h1, h2 { line-height: 1.18; }
+.eyebrow { letter-spacing: 0.18em; }
+
+/* =========================================================
+   ХИНКАЛЬНАЯ — своё поверх темы ниши
+   ========================================================= */
+
+/* Кнопка брони в шапке. На узком экране её заменяет нижняя панель .callbar,
+   иначе в строку не помещаются логотип, кнопка и бургер. */
+.header__cta { flex: none; padding-inline: 1.1rem; }
+@media (max-width: 1100px) { .header__cta { display: none; } }
+
+/* ---------- Главная фишка: рука снимает хинкали с тарелки ----------
+   Пропорции взяты из исходной анимации (сцена 640×533):
+   тарелка — 94/640 слева, 295/533 сверху, ширина 350/640;
+   рука — во всю ширину, её высота 360/533, ход 80 px = 22,2 % своей высоты.
+   Всё в процентах, поэтому сцена тянется вместе с колонкой.
+   Двигается только transform — перерисовки страницы нет. */
+.hinkali {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin-inline: auto;
+  aspect-ratio: 640 / 533;
+}
+.hinkali img { position: absolute; display: block; max-width: none; height: auto; z-index: 1; }
+.hinkali__plate { left: 14.69%; top: 55.35%; width: 54.69%; }
+.hinkali__hand {
+  left: 0; top: 0; width: 100%;
+  transform-origin: center top;
+  animation: хинкали-вниз 4.5s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+@keyframes хинкали-вниз {
+  0%        { transform: translateY(-22.2%); }
+  55%, 85%  { transform: translateY(0); }
+  100%      { transform: translateY(-22.2%); }
+}
+/* Тёплое пятно под тарелкой — сцена нарисована на белом, без него она
+   висит в воздухе на кремовом фоне. */
+.hinkali::after {
+  content: "";
+  position: absolute; left: 12%; right: 12%; bottom: 4%; height: 14%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(52, 32, 18, 0.16), transparent 70%);
+  z-index: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hinkali__hand { animation: none; transform: translateY(0); }
+}
+
+/* ---------- Карточка блюда в меню ---------- */
+.dish { display: flex; flex-direction: column; gap: 0; padding: 0; overflow: hidden; }
+.dish img {
+  width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  background: var(--surface);
+}
+.dish__body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
+.dish__name { font-family: var(--font-head); font-size: 1.05rem; line-height: 1.3; }
+.dish__row { display: flex; align-items: baseline; justify-content: space-between; gap: 0.8rem; margin-top: auto; padding-top: 0.6rem; }
+.dish__price { font-weight: 700; color: var(--accent-deep); white-space: nowrap; }
+.dish__weight { color: var(--text-dim); font-size: 0.88rem; }
+/* Позиция без фото не должна проваливаться по высоте рядом с фотокарточками. */
+.dish--nophoto .dish__stub {
+  aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center;
+  background: var(--surface); color: var(--text-dim); font-size: 0.9rem; text-align: center;
+  padding: 1rem;
+}
+
+/* Сетка меню: четыре колонки на широком, но не уже 230 px — иначе
+   длинные названия блюд («Салат с говядиной гриль и печёными овощами»)
+   рвутся в столбик. */
+.dishes { display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+
+/* Заголовок раздела меню */
+.dish-group { margin-top: 2.6rem; }
+.dish-group:first-of-type { margin-top: 1.6rem; }
+.dish-group__title { font-family: var(--font-head); font-size: var(--fs-h3); margin-bottom: 1.2rem; }
+
+/* Звёзды отзывов. В скелете они #f5b301 — это 1,85:1 на кремовом фоне,
+   и текстовыми «★» такой контраст не проходит. Тёмная янтарная даёт
+   5,5:1 на --bg-soft, 6,2:1 на --bg и 5,1:1 на --surface. */
+.review__stars { color: #845200; }
+
+/* На телефоне меню в одну колонку — это 65 экранов прокрутки. С 380 px
+   ставим две; ниже 380 колонка одна, иначе название блюда рвётся в столбик. */
+@media (min-width: 380px) and (max-width: 620px) {
+  .dishes { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
+  .dish__name { font-size: 0.95rem; }
+  .dish__body { padding: 0.8rem 0.85rem 1rem; }
+}
+
+/* Фильтры показывают .catalog__item через display: flex — это годится
+   карточке товара, но здесь .catalog__item висит на целом разделе меню,
+   и заголовок с сеткой вставали в строку. Разделу нужен блок. */
+.dish-group.catalog__item.is-shown { display: block; }
+
+/* В блоке брони под лидом идёт короткое примечание, а не следующий блок.
+   Отступ .section-lead рассчитан на блок и оставлял дыру в 48 px. */
+.formblock .section-lead:has(+ .form__note) { margin-bottom: 1rem; }
+
+/* Логотип шире квадратной иконки: три хинкали в ряд, 35,41 × 24.
+   В скелете .logo svg жёстко 26 × 26 — знак бы сплющило. */
+.logo__mark { width: auto; height: 28px; flex: none; }
+@media (max-width: 380px) { .logo__mark { height: 24px; } }

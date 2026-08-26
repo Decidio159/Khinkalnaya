@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*?from=
+
+Sitemap: https://hinkalnaya-perm.ru/sitemap.xml

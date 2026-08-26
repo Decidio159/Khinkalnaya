@@ -1,0 +1,94 @@
+/* Шрифты заготовок Decidio.
+   Все файлы — woff2, обрезаны до кириллицы и латиницы, лежат в woff2/.
+   Подключать так:  <link rel="stylesheet" href="fonts.css">
+   Пары под ниши — в конце файла. */
+
+@font-face {
+  font-family: "Golos Text";
+  src: url("woff2/golos-text-var.woff2") format("woff2-variations");
+  font-weight: 400 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("woff2/inter-var.woff2") format("woff2-variations");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("woff2/manrope-var.woff2") format("woff2-variations");
+  font-weight: 200 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("woff2/oswald-var.woff2") format("woff2-variations");
+  font-weight: 200 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("woff2/unbounded-var.woff2") format("woff2-variations");
+  font-weight: 200 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Prata";
+  src: url("woff2/prata-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PT Serif";
+  src: url("woff2/pt-serif-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PT Serif";
+  src: url("woff2/pt-serif-700.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("woff2/comfortaa-var.woff2") format("woff2-variations");
+  font-weight: 300 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("woff2/nunito-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("woff2/nunito-700.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* Как пользоваться: в макете задать эти две переменные и всё.
+   --font-head — заголовки, --font-text — весь остальной текст. */
+:root {
+  --font-head: "Manrope", system-ui, sans-serif;
+  --font-text: "Inter", system-ui, sans-serif;
+}
+h1, h2, h3, h4, .h { font-family: var(--font-head); }
+body { font-family: var(--font-text); }
+
+/* ПАРЫ ПОД НИШИ — скопировать нужную в :root макета
+
+   Универсал (услуги, IT, непонятная ниша):
+     --font-head: "Manrope"; --font-text: "Inter";
+
+   Авто, шиномонтаж, спорт, техно:
+     --font-head: "Unbounded"; --font-text: "Inter";
+
+   Красота, флористика, премиум:
+     --font-head: "Prata"; --font-text: "Manrope";
+
+   Стройка, ремонт, окна, промышленность:
+     --font-head: "Oswald"; --font-text: "Golos Text";
+
+   Юристы, бухгалтеры, медицина, страхование:
+     --font-head: "PT Serif"; --font-text: "Inter";
+
+   Мед, стоматология, ветклиника (спокойный вариант):
+     --font-head: "Golos Text"; --font-text: "Golos Text";
+
+   Детские центры, школы, семейные кафе, праздники:
+     --font-head: "Comfortaa"; --font-text: "Nunito";
+*/

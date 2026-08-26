@@ -1,0 +1,576 @@
+[
+ {
+  "к": "Хинкали",
+  "код": "hinkali",
+  "т": [
+   {
+    "n": "Хинкали классические",
+    "p": 360,
+    "w": "300 г",
+    "img": "3805444/ed934396832e3bc5f34e66a8ee42c3c3",
+    "slug": "hinkali-klassicheskie",
+    "file": "assets/menu/hinkali-klassicheskie.webp"
+   },
+   {
+    "n": "Хинкали с сыром",
+    "p": 390,
+    "w": "300 г",
+    "img": "3583862/ed934396832e3bc5f34e66a8ee42c3c3",
+    "slug": "hinkali-s-syrom",
+    "file": "assets/menu/hinkali-s-syrom.webp"
+   },
+   {
+    "n": "Хинкали с грибами",
+    "p": 390,
+    "w": "300 г",
+    "img": "1381342/ed934396832e3bc5f34e66a8ee42c3c3",
+    "slug": "hinkali-s-gribami",
+    "file": "assets/menu/hinkali-s-gribami.webp"
+   },
+   {
+    "n": "Хинкали с бараниной",
+    "p": 420,
+    "w": "300 г",
+    "img": "3806466/ed934396832e3bc5f34e66a8ee42c3c3",
+    "slug": "hinkali-s-baraninoy",
+    "file": "assets/menu/hinkali-s-baraninoy.webp"
+   }
+  ]
+ },
+ {
+  "к": "Выпечка",
+  "код": "vypechka",
+  "т": [
+   {
+    "n": "Хачапури по-мегрельски",
+    "p": 595,
+    "w": "500 г",
+    "img": "3502490/f588a6b463b34e069373ee24dcb5ede0",
+    "slug": "hachapuri-po-megrelski",
+    "file": "assets/menu/hachapuri-po-megrelski.webp"
+   },
+   {
+    "n": "Хачапури по-аджарски",
+    "p": 550,
+    "w": "450 г",
+    "img": "3534679/c1ce0eb4516777084d26d38ab4ef6ebb",
+    "slug": "hachapuri-po-adzharski",
+    "file": "assets/menu/hachapuri-po-adzharski.webp"
+   },
+   {
+    "n": "Хачапури по-имеретински",
+    "p": 535,
+    "w": "450 г",
+    "img": "3472725/51fea64278c2afd3ddef9f44ff26eb10",
+    "slug": "hachapuri-po-imeretinski",
+    "file": "assets/menu/hachapuri-po-imeretinski.webp"
+   },
+   {
+    "n": "Кубдари",
+    "p": 695,
+    "w": "450 г",
+    "img": "2806911/4910aec8056e44d7aef2800c5ab11bad",
+    "slug": "kubdari",
+    "file": "assets/menu/kubdari.webp"
+   },
+   {
+    "n": "Хачапури по-аджарски с креветками",
+    "p": 645,
+    "w": "450 г",
+    "img": null,
+    "slug": "hachapuri-po-adzharski-s-krevetkami",
+    "file": null
+   }
+  ]
+ },
+ {
+  "к": "Шашлык",
+  "код": "shashlyk",
+  "т": [
+   {
+    "n": "Шашлык из свиной шеи",
+    "p": 690,
+    "w": "200 г",
+    "img": "3790679/4287eaaf1096188a2867d54f7a6ae47b",
+    "slug": "shashlyk-iz-svinoy-shei",
+    "file": "assets/menu/shashlyk-iz-svinoy-shei.webp"
+   },
+   {
+    "n": "Шашлык из курицы",
+    "p": 630,
+    "w": "200 г",
+    "img": "3534679/736fd5639dc59798a2dd91dd12e03720",
+    "slug": "shashlyk-iz-kuricy",
+    "file": "assets/menu/shashlyk-iz-kuricy.webp"
+   },
+   {
+    "n": "Шашлык из телятины",
+    "p": 995,
+    "w": "200 г",
+    "img": "1381342/5823b2919185419aae924c789a9fbf15",
+    "slug": "shashlyk-iz-telyatiny",
+    "file": "assets/menu/shashlyk-iz-telyatiny.webp"
+   },
+   {
+    "n": "Шашлык из сёмги",
+    "p": 1320,
+    "w": "200 г",
+    "img": "3816972/e229979f2aa845aac563b10884dd1238",
+    "slug": "shashlyk-iz-semgi",
+    "file": "assets/menu/shashlyk-iz-semgi.webp"
+   },
+   {
+    "n": "Люля-кебаб классический",
+    "p": 370,
+    "w": "100 г",
+    "img": "3377781/102254858f27b9c517311672ff3629a1",
+    "slug": "lyulya-kebab-klassicheskiy",
+    "file": "assets/menu/lyulya-kebab-klassicheskiy.webp"
+   },
+   {
+    "n": "Люля-кебаб из баранины",
+    "p": 420,
+    "w": "100 г",
+    "img": "3806466/0aedd61a48984465418bd1bb44fc664d",
+    "slug": "lyulya-kebab-iz-baraniny",
+    "file": "assets/menu/lyulya-kebab-iz-baraniny.webp"
+   },
+   {
+    "n": "Люля-кебаб из курицы",
+    "p": 345,
+    "w": "100 г",
+    "img": "3798638/e3c5b7382356887d1202a2ad49472bbd",
+    "slug": "lyulya-kebab-iz-kuricy",
+    "file": "assets/menu/lyulya-kebab-iz-kuricy.webp"
+   },
+   {
+    "n": "Ассорти из шашлыков",
+    "p": 4100,
+    "w": "1,3 кг",
+    "img": "3518584/900909aae233505c92edfd644c767013",
+    "slug": "assorti-iz-shashlykov",
+    "file": "assets/menu/assorti-iz-shashlykov.webp"
+   },
+   {
+    "n": "Крылья куриные",
+    "p": 550,
+    "w": "200 г",
+    "img": null,
+    "slug": "krylya-kurinye",
+    "file": null
+   }
+  ]
+ },
+ {
+  "к": "Горячие блюда",
+  "код": "goryachee",
+  "т": [
+   {
+    "n": "Оджахури со свининой",
+    "p": 545,
+    "w": "300 г",
+    "img": "3774488/c67bb8b228181ad923de29bd786cd438",
+    "slug": "odzhahuri-so-svininoy",
+    "file": "assets/menu/odzhahuri-so-svininoy.webp"
+   },
+   {
+    "n": "Чашашули",
+    "p": 615,
+    "w": "300 г",
+    "img": "3208959/56a1296f2c51b74e14ad4016e5e6a055",
+    "slug": "chashashuli",
+    "file": "assets/menu/chashashuli.webp"
+   },
+   {
+    "n": "Чахохбили",
+    "p": 515,
+    "w": "300 г",
+    "img": "3784951/2aa0cc0c39343a1c6cd65508f09eec45",
+    "slug": "chahohbili",
+    "file": "assets/menu/chahohbili.webp"
+   },
+   {
+    "n": "Чкмерули",
+    "p": 525,
+    "w": "300 г",
+    "img": "3595156/aa6244872be180361d2f1758b7c58e31",
+    "slug": "chkmeruli",
+    "file": "assets/menu/chkmeruli.webp"
+   },
+   {
+    "n": "Чанахи",
+    "p": 625,
+    "w": "300 г",
+    "img": "3541746/6e90d8da369fd3cd0e2d1c19b5ab2908",
+    "slug": "chanahi",
+    "file": "assets/menu/chanahi.webp"
+   },
+   {
+    "n": "Котлета по-горски",
+    "p": 550,
+    "w": "250 г",
+    "img": "3805444/463310766b8db1aed2140cbbe9e100d3",
+    "slug": "kotleta-po-gorski",
+    "file": "assets/menu/kotleta-po-gorski.webp"
+   },
+   {
+    "n": "Оджахури с курицей",
+    "p": 525,
+    "w": "300 г",
+    "img": null,
+    "slug": "odzhahuri-s-kuricey",
+    "file": null
+   }
+  ]
+ },
+ {
+  "к": "Супы",
+  "код": "supy",
+  "т": [
+   {
+    "n": "Суп харчо",
+    "p": 540,
+    "w": "400 г",
+    "img": "3702558/228ce51cd550e1a304f1581321615c50",
+    "slug": "sup-harcho",
+    "file": "assets/menu/sup-harcho.webp"
+   },
+   {
+    "n": "Суп лобио",
+    "p": 410,
+    "w": "400 г",
+    "img": "3583740/4bd267c87a99953c746914cfbed73183",
+    "slug": "sup-lobio",
+    "file": "assets/menu/sup-lobio.webp"
+   },
+   {
+    "n": "Суп бозбаш",
+    "p": 560,
+    "w": "400 г",
+    "img": "3531870/7db0826c97d6a54c0bf337265cbdc4f8",
+    "slug": "sup-bozbash",
+    "file": "assets/menu/sup-bozbash.webp"
+   },
+   {
+    "n": "Суп куриный",
+    "p": 420,
+    "w": "400 г",
+    "img": "3724421/23b81e9c7c1e6c93bf74cd3a4262b488",
+    "slug": "sup-kurinyy",
+    "file": "assets/menu/sup-kurinyy.webp"
+   }
+  ]
+ },
+ {
+  "к": "Закуски",
+  "код": "zakuski",
+  "т": [
+   {
+    "n": "Лобио из красной фасоли",
+    "p": 370,
+    "w": "200 г",
+    "img": "3507787/39461a405353b4045f254087ed9eb094",
+    "slug": "lobio-iz-krasnoy-fasoli",
+    "file": "assets/menu/lobio-iz-krasnoy-fasoli.webp"
+   },
+   {
+    "n": "Ассорти из солений",
+    "p": 580,
+    "w": "300 г",
+    "img": "2783965/2660772c4fe1428b424ad800fb66fd68",
+    "slug": "assorti-iz-soleniy",
+    "file": "assets/menu/assorti-iz-soleniy.webp"
+   },
+   {
+    "n": "Сыр чанах с зеленью",
+    "p": 530,
+    "w": "200 г",
+    "img": "2415806/d3d597512d1055e2a718549881948938",
+    "slug": "syr-chanah-s-zelenyu",
+    "file": "assets/menu/syr-chanah-s-zelenyu.webp"
+   },
+   {
+    "n": "Рулетики из баклажанов с орехами",
+    "p": 520,
+    "w": "200 г",
+    "img": "13058477/e863ec35501e43b3afb747b464f3e1a6",
+    "slug": "ruletiki-iz-baklazhanov-s-orehami",
+    "file": "assets/menu/ruletiki-iz-baklazhanov-s-orehami.webp"
+   },
+   {
+    "n": "Рулетики из баклажанов с сыром",
+    "p": 490,
+    "w": "200 г",
+    "img": "3518584/691cf98ee4fc2695441bc281b086f563",
+    "slug": "ruletiki-iz-baklazhanov-s-syrom",
+    "file": "assets/menu/ruletiki-iz-baklazhanov-s-syrom.webp"
+   },
+   {
+    "n": "Сациви с курицей",
+    "p": 510,
+    "w": "200 г",
+    "img": "3208959/3e8722632f772929057bcf87da4aee59",
+    "slug": "sacivi-s-kuricey",
+    "file": "assets/menu/sacivi-s-kuricey.webp"
+   },
+   {
+    "n": "Долма",
+    "p": 490,
+    "w": "250 г",
+    "img": "3784951/fe9cae5fbc863aa0857ecf8ad536204d",
+    "slug": "dolma",
+    "file": "assets/menu/dolma.webp"
+   },
+   {
+    "n": "Запечённые шампиньоны под сыром",
+    "p": 450,
+    "w": "200 г",
+    "img": "3378693/9cdf9af6978d197647d21383b3fc3afc",
+    "slug": "zapechennye-shampinony-pod-syrom",
+    "file": "assets/menu/zapechennye-shampinony-pod-syrom.webp"
+   },
+   {
+    "n": "Овощное ассорти",
+    "p": 585,
+    "w": "300 г",
+    "img": "3502728/334b6b1fdb64958fe94e185f2d2d2d8d",
+    "slug": "ovoschnoe-assorti",
+    "file": "assets/menu/ovoschnoe-assorti.webp"
+   },
+   {
+    "n": "Капуста по-грузински",
+    "p": 250,
+    "w": "100 г",
+    "img": "1365461/c91ea9cb2b5d4e2090d83553c8386e03",
+    "slug": "kapusta-po-gruzinski",
+    "file": "assets/menu/kapusta-po-gruzinski.webp"
+   },
+   {
+    "n": "Сырные палочки",
+    "p": 425,
+    "w": "150 г",
+    "img": "1381342/dfb945bfd4da4ea4ba00c3609f41a1a4",
+    "slug": "syrnye-palochki",
+    "file": "assets/menu/syrnye-palochki.webp"
+   },
+   {
+    "n": "Аджапсандал",
+    "p": 445,
+    "w": "200 г",
+    "img": null,
+    "slug": "adzhapsandal",
+    "file": null
+   },
+   {
+    "n": "Запечённые томаты под сыром с фаршем",
+    "p": 530,
+    "w": "250 г",
+    "img": null,
+    "slug": "zapechennye-tomaty-pod-syrom-s-farshem",
+    "file": null
+   },
+   {
+    "n": "Тигровые креветки на гриле",
+    "p": 720,
+    "w": "100 г",
+    "img": null,
+    "slug": "tigrovye-krevetki-na-grile",
+    "file": null
+   }
+  ]
+ },
+ {
+  "к": "Салаты",
+  "код": "salaty",
+  "т": [
+   {
+    "n": "Салат «Цезарь» с креветками",
+    "p": 570,
+    "w": "250 г",
+    "img": "3816972/6bb38ad40b1f5d7c1d692f4fbd931873",
+    "slug": "salat-cezar-s-krevetkami",
+    "file": "assets/menu/salat-cezar-s-krevetkami.webp"
+   },
+   {
+    "n": "Салат «Цезарь» с фирменным цыплёнком",
+    "p": 490,
+    "w": "250 г",
+    "img": "3512182/dfbd17d5792cdb3c8ed4b065a4c33335",
+    "slug": "salat-cezar-s-firmennym-cyplenkom",
+    "file": "assets/menu/salat-cezar-s-firmennym-cyplenkom.webp"
+   },
+   {
+    "n": "Салат имеретинский",
+    "p": 460,
+    "w": "250 г",
+    "img": "3568095/36c65994e27f5c92375a324f7e91b133",
+    "slug": "salat-imeretinskiy",
+    "file": "assets/menu/salat-imeretinskiy.webp"
+   },
+   {
+    "n": "Салат с говядиной гриль и печёными овощами",
+    "p": 595,
+    "w": "250 г",
+    "img": "3816972/2547e4cb4b68dc09327bb115b57c6d33",
+    "slug": "salat-s-govyadinoy-gril-i-pechenymi-ovoschami",
+    "file": "assets/menu/salat-s-govyadinoy-gril-i-pechenymi-ovoschami.webp"
+   },
+   {
+    "n": "Салат греческий",
+    "p": 475,
+    "w": "250 г",
+    "img": "3807631/682e41b4d59a7cac7b3ccaac9d8a9889",
+    "slug": "salat-grecheskiy",
+    "file": "assets/menu/salat-grecheskiy.webp"
+   },
+   {
+    "n": "Салат с креветками в кисло-сладкой заправке",
+    "p": 620,
+    "w": "250 г",
+    "img": "3506804/b443ca754e394129ae6bba2f49ec97b2",
+    "slug": "salat-s-krevetkami-v-kislo-sladkoy-zapravke",
+    "file": "assets/menu/salat-s-krevetkami-v-kislo-sladkoy-zapravke.webp"
+   },
+   {
+    "n": "Салат «Цниси»",
+    "p": 490,
+    "w": "250 г",
+    "img": "3525661/aae27e371bff45229e2e423ec7598b84",
+    "slug": "salat-cnisi",
+    "file": "assets/menu/salat-cnisi.webp"
+   },
+   {
+    "n": "Салат со слабосолёным лососем и свежими овощами",
+    "p": 620,
+    "w": "250 г",
+    "img": null,
+    "slug": "salat-so-slabosolenym-lososem-i-svezhimi-ovoscha",
+    "file": null
+   }
+  ]
+ },
+ {
+  "к": "Гарниры и хлеб",
+  "код": "garniry",
+  "т": [
+   {
+    "n": "Картофель фри",
+    "p": 255,
+    "w": "150 г",
+    "img": "3596693/91ae00d936204d1c88c32c01d4c71d6d",
+    "slug": "kartofel-fri",
+    "file": "assets/menu/kartofel-fri.webp"
+   },
+   {
+    "n": "Овощи гриль",
+    "p": 360,
+    "w": "150 г",
+    "img": "3596693/f189d57df9d14c3b989ad6cbb65c5fe4",
+    "slug": "ovoschi-gril",
+    "file": "assets/menu/ovoschi-gril.webp"
+   },
+   {
+    "n": "Отварной рис",
+    "p": 180,
+    "w": "150 г",
+    "img": null,
+    "slug": "otvarnoy-ris",
+    "file": null
+   },
+   {
+    "n": "Запечённый картофель",
+    "p": 255,
+    "w": "150 г",
+    "img": null,
+    "slug": "zapechennyy-kartofel",
+    "file": null
+   },
+   {
+    "n": "Хлеб шоти",
+    "p": 95,
+    "w": "200 г",
+    "img": "3568095/0668681b9374a835bbaa1496db1434f3",
+    "slug": "hleb-shoti",
+    "file": "assets/menu/hleb-shoti.webp"
+   }
+  ]
+ },
+ {
+  "к": "Соусы и напитки",
+  "код": "sousy",
+  "т": [
+   {
+    "n": "Ткемали",
+    "p": 110,
+    "w": "50 г",
+    "img": "3528150/2a8232fb1cc74f1a05a91b182f9107ba",
+    "slug": "tkemali",
+    "file": "assets/menu/tkemali.webp"
+   },
+   {
+    "n": "Наршараб",
+    "p": 125,
+    "w": "50 г",
+    "img": "1381342/652257f31b774747a0e53648e34d4a24",
+    "slug": "narsharab",
+    "file": "assets/menu/narsharab.webp"
+   },
+   {
+    "n": "Сацебели",
+    "p": 105,
+    "w": "50 г",
+    "img": "3702558/7e302a6485fd25160c32f26a567e6fdb",
+    "slug": "sacebeli",
+    "file": "assets/menu/sacebeli.webp"
+   },
+   {
+    "n": "Острый томатный",
+    "p": 100,
+    "w": "50 г",
+    "img": "1473782/79aec4f4cad345fa918073be589a581b",
+    "slug": "ostryy-tomatnyy",
+    "file": "assets/menu/ostryy-tomatnyy.webp"
+   },
+   {
+    "n": "Чесночный",
+    "p": 100,
+    "w": "50 г",
+    "img": "3525402/d2363185b38df7df60e6476a85d24f4d",
+    "slug": "chesnochnyy",
+    "file": "assets/menu/chesnochnyy.webp"
+   },
+   {
+    "n": "Сметана",
+    "p": 85,
+    "w": "50 г",
+    "img": "3749380/51ac91d3746bcd7a327dc2255c610dcc",
+    "slug": "smetana",
+    "file": "assets/menu/smetana.webp"
+   },
+   {
+    "n": "Майонез",
+    "p": 85,
+    "w": "50 г",
+    "img": "3772784/ac04ab90d0ae27e5e8c25945fab3d3c5",
+    "slug": "mayonez",
+    "file": "assets/menu/mayonez.webp"
+   },
+   {
+    "n": "Кетчуп",
+    "p": 85,
+    "w": "50 г",
+    "img": "3507787/c25bd6522fc671f373e5d1355ae1c617",
+    "slug": "ketchup",
+    "file": "assets/menu/ketchup.webp"
+   },
+   {
+    "n": "Морс домашний",
+    "p": 250,
+    "w": "500 мл",
+    "img": null,
+    "slug": "mors-domashniy",
+    "file": null
+   }
+  ]
+ }
+]
